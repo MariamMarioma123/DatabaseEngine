@@ -1,12 +1,11 @@
 # DatabaseEngine
 The project aims to build a small database engine with support for Octrees Indices. The engine should have the following functionalities:
-
--Creating tables
--Inserting tuples into tables
--Deleting tuples from tables
--Searching in tables linearly
--Creating an Octree upon demand
--Using the created Octree(s) where appropriate
+<br>-Creating tables 
+<br>-Inserting tuples into tables
+<br>-Deleting tuples from tables
+<br>-Searching in tables linearly
+<br>-Creating an Octree upon demand
+<br>-Using the created Octree(s) where appropriate
 
 It is important to note that:
 -The engine should store each table as separate pages on disk, with each page having a fixed maximum number of rows(this data is known from the config file). 
